@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #202124;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: solid red 1px;
+  background-color: #202124;
+  color: #FFF;
+  padding: 10px 3px 10px 3px;
+}
+
 .signup {
   background-color: #202124;
   width: 99vw;
@@ -27,3 +46,5 @@
   flex-direction: column;
   gap: 10px;
 }
+
+/*# sourceMappingURL=App.css.map */
