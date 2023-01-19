@@ -8,6 +8,6 @@ export function Input({placeholder, className, register, name, type}) {
     autoComplete="off"
     type={type}
     className={className ? className : ''}
-    {...register('email')} />
+    {...register(`${name}`)} />
   )
 }
