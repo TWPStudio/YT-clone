@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #202124;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: solid red 1px;
+  background-color: #202124;
+  color: #FFF;
+  padding: 10px 3px 10px 3px;
+}
+
+.signup {
+  background-color: #202124;
+  width: 99vw;
+  height: 98vh;
+  display: grid;
+  place-items: center;
+}
+
+.email-label {
+  color: #FFF;
+  font-weight: 600;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  width: 300px;
+  border: solid 2px #ffffff;
+  border-radius: 8px;
+}
+
+.emailBox {
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=App.css.map */
