@@ -1,5 +1,4 @@
 import { Input } from "../components/Input";
-
 import {useForm} from 'react-hook-form'
 
 export function SignUp() {
